@@ -5,20 +5,14 @@ RCInput-SpectrumDecoder-RCOutput-ServoOutputs
   PRU-1 is intended to drive the servo pins to provide signals to the ESCs.
   The BBBL servo pins are arranged accordingly:
 
-  ---------------------------------------------------
-  |                                                  |
-  |                                                  |
-  |                                                  |
-  |  - + s  (SVO1 - Chan #7)  R30.8                  |
-  |  - + s  (SVO2 - Chan #4)  R30.10                 |
-  |  - + s  (SVO3 - Chan #1)  R30.9                  |
-  |  - + s  (SVO4 - Chan #x)  R30.11                 |
-  |  - + s  (SVO5 - Chan #5)  R30.6                  |
-  |  - + s  (SVO6 - Chan #6)  R30.7                  |
-  |  - + s  (SVO7 - Chan #2)  R30.4                  |
-  |  - + s  (SVO8 - Chan #3)  R30.5                  |
-  |                                                  |
-   --------------------------------------------------
+    - + s  (SVO1 - Chan #7)  R30.8
+    - + s  (SVO2 - Chan #4)  R30.10
+    - + s  (SVO3 - Chan #1)  R30.9
+    - + s  (SVO4 - Chan #x)  R30.11
+    - + s  (SVO5 - Chan #5)  R30.6
+    - + s  (SVO6 - Chan #6)  R30.7
+    - + s  (SVO7 - Chan #2)  R30.4
+    - + s  (SVO8 - Chan #3)  R30.5
 
 SVO7, T1, "pr1_pru1_pru_r30[4]",  "SERVO", "pru_r30[4]",  GPIO2.10, P8.27
 SVO8, T2, "pr1_pru1_pru_r30[5]",  "SERVO", "pru_r30[5]",  GPIO2.11, P8.28
